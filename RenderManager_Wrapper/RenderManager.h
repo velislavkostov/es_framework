@@ -1,8 +1,6 @@
 #ifndef _RENDERMANAGER_
 #define _RENDERMANAGER_
 
-#ifdef __cplusplus
-
 #include <vector>
 #include <list>
 #include <algorithm>
@@ -25,7 +23,5 @@ class RenderManager{
         std::list<Renderable*> add_list;
 
 };
-
-#endif // __cplusplus
 
 #endif // _RENDERMANAGER_
